@@ -3,7 +3,11 @@
   "description": "Get awesome links on your page",
   "version": "2.0",
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "tabs",
+    "notifications",
+    "http://*/",
+    "https://*/"
   ],
   "background": {
     "scripts": ["background.js"],
